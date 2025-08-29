@@ -12,7 +12,7 @@ const Shop = () => {
         <div className="relative w-full h-screen text-gray-700 pt-5">
           <div className="z-10 flex flex-col h-full">
             <div className="flex justify-center md:justify-start">
-              <h2 className='mx md:m-7 font-medium text-2xl flex items-center gap-1 p-3 bg-gray-200/60 w-fit rounded-full'>
+              <h2 className='md:ml-5 font-medium text-2xl flex items-center gap-1 p-3 bg-gray-200/60 w-fit rounded-full'>
               <span className="w-8 h-8 p-5 bg-black text-white rounded-full flex justify-center items-center">1</span>
               <span className='px-1'>Cửa hàng cầu lông</span>
             </h2>
