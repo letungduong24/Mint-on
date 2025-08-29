@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 const GuestNavbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className='fixed z-50 w-full p-5'>
+    <div className='absolute z-50 w-full p-7'>
       <div className="flex justify-between items-center">
         <h1 className='text-2xl text-white font-bold bg-white/10 p-2 rounded-2xl border border-white/20 backdrop-blur-md'>MINT-ON</h1>
         <div className="hidden md:block menu space-x-2 bg-white/10 rounded-2xl px-2 py-4 backdrop-blur-xs border border-white/20">
